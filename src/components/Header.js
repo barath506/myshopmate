@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header>
       <Link to="/" className="logo">
-        <img src={Logo} alt="shopmate image" />
+        <img src={Logo} alt="" />
         <span>Shopping Cart</span>
       </Link>
       <nav className="navigation">
