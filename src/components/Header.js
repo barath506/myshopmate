@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header>
       <Link to="/" className="logo">
-        <img src={Logo} alt="shopmate image"></img>
+        <img src={Logo} alt="shopmate image" />
         <span>Shopping Cart</span>
       </Link>
       <nav className="navigation">
@@ -13,7 +13,7 @@ export const Header = () => {
         <NavLink to="/cart" className="link">Cart</NavLink>
       </nav>
       <Link to="/cart" className="items">
-      <span>Cart :  2</span>
+        <span>Cart :  2</span>
       </Link>
     </header>
   )
